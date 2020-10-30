@@ -37,10 +37,10 @@ driver.find_element_by_css_selector('[placeholder="请输入摘要编码"]').sen
 driver.find_element_by_css_selector('[placeholder="请输入摘要名称"]').send_keys("摘要1")
 time.sleep(1)
 driver.find_element_by_css_selector('span > button.el-button.el-button--primary').click()
-# 点击清空按钮
-driver.find_element_by_css_selector('.btns > button:nth-child(3)').click()
-time.sleep(1)
-driver.find_element_by_css_selector('[aria-label="清空"] > .el-dialog__footer > span > .el-button--primary').click()
+# # 点击清空按钮
+# driver.find_element_by_css_selector('.btns > button:nth-child(3)').click()
+# time.sleep(1)
+# driver.find_element_by_css_selector('[aria-label="清空"] > .el-dialog__footer > span > .el-button--primary').click()
 print("成功了有")
 time.sleep(5)
 driver.quit()
