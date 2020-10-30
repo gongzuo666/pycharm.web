@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.6.6 on win32)" generated="20200927 17:09:38.188" rpa="false">
+<suite id="s1" name="Tc" source="E:\songqin\web自动化\启程\财务\tc">
+<suite id="s1-s1" name="webUI测试" source="E:\songqin\web自动化\启程\财务\tc\webUI测试">
+<kw name="setupWebTest" type="setup">
+<msg timestamp="20200927 17:09:41.176" level="FAIL">No keyword with name 'setupWebTest' found.</msg>
+<status status="FAIL" starttime="20200927 17:09:41.176" endtime="20200927 17:09:41.176"></status>
+</kw>
+<suite id="s1-s1-s1" name="管理员登录" source="E:\songqin\web自动化\启程\财务\tc\webUI测试\管理员登录">
+<suite id="s1-s1-s1-s1" name="凭证新增" source="E:\songqin\web自动化\启程\财务\tc\webUI测试\管理员登录\凭证新增">
+<suite id="s1-s1-s1-s1-s1" name="新增凭证" source="E:\songqin\web自动化\启程\财务\tc\webUI测试\管理员登录\凭证新增\新增凭证.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="表格加减图标操作">
+<status status="FAIL" starttime="20200927 17:09:41.188" endtime="20200927 17:09:41.190" critical="yes">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</test>
+<test id="s1-s1-s1-s1-s1-t2" name="新增凭证">
+<status status="FAIL" starttime="20200927 17:09:41.191" endtime="20200927 17:09:41.192" critical="yes">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</test>
+<status status="FAIL" starttime="20200927 17:09:41.183" endtime="20200927 17:09:41.192">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</suite>
+<status status="FAIL" starttime="20200927 17:09:41.179" endtime="20200927 17:09:41.196">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</suite>
+<suite id="s1-s1-s1-s2" name="摘要" source="E:\songqin\web自动化\启程\财务\tc\webUI测试\管理员登录\摘要">
+<suite id="s1-s1-s1-s2-s1" name="新增摘要" source="E:\songqin\web自动化\启程\财务\tc\webUI测试\管理员登录\摘要\新增摘要.robot">
+<test id="s1-s1-s1-s2-s1-t1" name="添加摘要">
+<status status="FAIL" starttime="20200927 17:09:41.202" endtime="20200927 17:09:41.203" critical="yes">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</test>
+<status status="FAIL" starttime="20200927 17:09:41.200" endtime="20200927 17:09:41.204">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</suite>
+<status status="FAIL" starttime="20200927 17:09:41.198" endtime="20200927 17:09:41.207">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</suite>
+<status status="FAIL" starttime="20200927 17:09:41.177" endtime="20200927 17:09:41.209">Parent suite setup failed:
+No keyword with name 'setupWebTest' found.</status>
+</suite>
+<kw name="tearDownWebTest" type="teardown">
+<msg timestamp="20200927 17:09:41.214" level="FAIL">No keyword with name 'tearDownWebTest' found.</msg>
+<status status="FAIL" starttime="20200927 17:09:41.214" endtime="20200927 17:09:41.214">No keyword with name 'tearDownWebTest' found.</status>
+</kw>
+<status status="FAIL" starttime="20200927 17:09:38.216" endtime="20200927 17:09:41.214">Suite setup failed:
+No keyword with name 'setupWebTest' found.
+
+Also suite teardown failed:
+No keyword with name 'tearDownWebTest' found.</status>
+</suite>
+<status status="FAIL" starttime="20200927 17:09:38.192" endtime="20200927 17:09:41.216"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" id="s1" name="Tc">Tc</stat>
+<stat pass="0" fail="3" id="s1-s1" name="webUI测试">Tc.webUI测试</stat>
+<stat pass="0" fail="3" id="s1-s1-s1" name="管理员登录">Tc.webUI测试.管理员登录</stat>
+<stat pass="0" fail="2" id="s1-s1-s1-s1" name="凭证新增">Tc.webUI测试.管理员登录.凭证新增</stat>
+<stat pass="0" fail="2" id="s1-s1-s1-s1-s1" name="新增凭证">Tc.webUI测试.管理员登录.凭证新增.新增凭证</stat>
+<stat pass="0" fail="1" id="s1-s1-s1-s2" name="摘要">Tc.webUI测试.管理员登录.摘要</stat>
+<stat pass="0" fail="1" id="s1-s1-s1-s2-s1" name="新增摘要">Tc.webUI测试.管理员登录.摘要.新增摘要</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

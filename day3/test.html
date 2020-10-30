@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css 语法学习</title>
+    <style>
+        /* id 选择器 */
+        /*  css 中 id 选择器以 # 来定义  */
+        #abc {
+            color: #0044bb;
+        }
+
+        /*class 选择器*/
+        /*css 中 class 选择器以 . 来定义*/
+        .abc {
+            color: #cc0000;
+        }
+
+        /*标签选择器*/
+        /*标签选择器可以选中同类型的 html 标签元素*/
+        p.abc {
+            background: #222222;
+        }
+
+        /*分组选择器*/
+        /*选中一组 html 元素*/
+        /*在 css 当中，分组选择器以 , 来定义*/
+        p, a {
+            font-size: 20px;
+        }
+
+
+        /*属性选择器*/
+        /*属性选择器选择具有特定属性的 html 元素*/
+        /*css 当中属性选择器以 [] 来定义*/
+
+        /*以下实例，选中所有具有 title 属性的标签*/
+        [title] {
+            color: #0044bb;
+        }
+
+        /*可以为属性指定值*/
+        [title="ab1"] {
+            background: #222222;
+        }
+
+        /*也可以指定标签类型*/
+        p[name] {
+            color: #cc0000;
+        }
+
+        p[class~="world"]{
+            color: #cc0000;
+        }
+
+    </style>
+</head>
+<body>
+<p id="abc">汉皇重色思倾国，御宇多年求不得</p>
+<p class="abc">杨家有女初长成，养在深闺人未识</p>
+<a>天生丽质难自弃，一朝选在君王侧</a>
+<br>
+<a title="ab1">回眸一笑百媚生，六宫粉黛无颜色</a>
+<p title="ab2">春寒赐浴华清池，温泉水滑洗凝脂</p>
+<p name="ab1">侍儿扶起娇无力</p>
+<p class="hello world">云鬓花颜金步摇，芙蓉帐暖度春宵</p>
+
+</body>
+</html>
