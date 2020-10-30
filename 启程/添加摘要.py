@@ -43,4 +43,3 @@ time.sleep(1)
 driver.find_element_by_css_selector('[aria-label="清空"] > .el-dialog__footer > span > .el-button--primary').click()
 time.sleep(5)
 
-driver.quit()
