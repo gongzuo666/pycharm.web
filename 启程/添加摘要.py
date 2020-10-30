@@ -41,6 +41,7 @@ driver.find_element_by_css_selector('span > button.el-button.el-button--primary'
 driver.find_element_by_css_selector('.btns > button:nth-child(3)').click()
 time.sleep(1)
 driver.find_element_by_css_selector('[aria-label="清空"] > .el-dialog__footer > span > .el-button--primary').click()
+print("成功了有")
 time.sleep(5)
-#发送到发送到发送到
-time.sleep(20)
+driver.quit()
+print("成功了有2313")
