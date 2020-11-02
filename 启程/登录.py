@@ -20,6 +20,8 @@ def lgoin(url,name,paw):
     # 登录
     driver.find_element_by_css_selector('[placeholder="请输入账号"]').send_keys(name)
     driver.find_element_by_css_selector('[placeholder="请输入密码"]').send_keys(paw)
+    # 截屏整个页面
+    driver.get_screenshot_as_file(f"./截图/denglu.png")
     driver.find_element_by_css_selector('[placeholder="请选择账套"]').click()
     driver.find_element_by_css_selector('div.el-scrollbar > div > ul > li:nth-child(1)').click()
     driver.find_element_by_css_selector('[type="button"]').click()
@@ -112,7 +114,7 @@ def addcredentials(Abstract, subject, money, expected):
 if __name__ == '__main__':
     lgoin("http://110.249.209.202:48080", "shouji", "123456")
     # add_delete_Table()
-    addcredentials("下雨了20200917", "负债", "333\n", "下雨了20200917")
+    # addcredentials("下雨了20200917", "负债", "333\n", "下雨了20200917")
     driver.quit()
 
 
