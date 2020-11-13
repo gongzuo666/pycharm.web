@@ -11,11 +11,17 @@ import time
 option = webdriver.ChromeOptions()
 option.add_argument('headless')  # 实现静默模式，在电脑上不显示页面
 
+# 取消浏览器出现'Chrome正在受到自动软件的控制'
+option=webdriver.ChromeOptions()
+option.add_experimental_option("excludeSwitches", ['enable-automation'])
 # 创建浏览器驱动对象
 driver = webdriver.Chrome("E:/toos/chromedriver.exe", chrome_options=option)
 # 访问网址
 driver.get("https://www.51job.com/")
 driver.implicitly_wait(5)
+
+# 刷新页面
+
 
 driver.find_element_by_css_selector("a.more").click()
 # 2 输入搜索关键词 python
